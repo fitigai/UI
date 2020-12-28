@@ -1,10 +1,12 @@
 {
-  "name": "@fitigai/ui",
-  "version": "1.0.1",
+  "name": "ui",
+  "version": "0.0.0",
   "description": "Fitigai ui components",
   "author": "Fitigai",
   "license": "MIT",
-  "repository": "fitigai/ui",
+  "repository": {
+    "url": "https://github.com/fitigai/ui.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
