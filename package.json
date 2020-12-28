@@ -5,7 +5,7 @@
   "author": "Fitigai",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/fitigai/ui.git"
+    "url": "git://github.com/fitigai/ui.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
