@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
+import ButtonUI from './ui/button'
+import HeadingUI from './ui/heading'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export const Button = ButtonUI
+export const Heading = HeadingUI
