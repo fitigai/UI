@@ -3,23 +3,32 @@ export const Z_INDEX = {
 }
 
 export const SYSTEM_COLOR = {
-  // AQUA_HAZE: '#F1F5F7',
   // BRANDY_PUNCH: '#D9822B',
   // CINNABAR: '#EC4C47',
   // CORNFLOWER_BLUE: "#425A70",
   // DENIM: '#1070CA',
   // OCEAN_GREEN: '#47B881',
-  SILVER: '#BCBBBB',
   // SUN: '#F9A409',
-  STALE_GRAY: '#66788A'
+  // STALE_GRAY: '#66788A',
+  // TUNA: '#222222',
+  AQUA_HAZE: '#F1F5F7',
+  DOVE_GREY: '#717171',
+  MINE_SHAFT: '#353745',
+  SILVER: '#BCBBBB',
+  SWAMP: '#00171F',
+  WHITE: '#FFFFFF'
 }
 
 export const COLOR = {
   // PRIMARY: SYSTEM_COLOR.SUN,
 
-  // BACKGROUND_LIGHT: SYSTEM_COLOR.AQUA_HAZE,
+  BACKGROUND_DARKEST: SYSTEM_COLOR.SWAMP,
+  BACKGROUND_LIGHT: SYSTEM_COLOR.AQUA_HAZE,
+  BACKGROUND_WHITE: SYSTEM_COLOR.WHITE,
   BORDER: SYSTEM_COLOR.SILVER,
-  TEXT: SYSTEM_COLOR.STALE_GRAY
+  TEXT: SYSTEM_COLOR.MINE_SHAFT,
+  TEXT_LIGHT: SYSTEM_COLOR.DOVE_GREY,
+  TEXT_WHITE: SYSTEM_COLOR.AQUA_HAZE
 
   // DANGER: SYSTEM_COLOR.CINNABAR,
   // SUCCESS: SYSTEM_COLOR.OCEAN_GREEN,
@@ -27,27 +36,27 @@ export const COLOR = {
   // INFO: SYSTEM_COLOR.DENIM,
 }
 
-// export const BREAKPOINT = {
-//   XS: '320px',
-//   S: '498px',
-//   M: '768px',
-//   L: '1024px',
-//   XL: '1280px',
-// }
+export const BREAKPOINT = {
+  // XS: '320px',
+  S: '498px',
+  M: '768px'
+  // L: '1024px',
+  // XL: '1280px'
+}
 
-// export const MEDIA_QUERY = {
-//   XS_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.XS})`,
-//   S_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.S})`,
-//   M_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.M})`,
-//   L_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.L})`,
-//   XL_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.XL})`,
+export const MEDIA_QUERY = {
+  // XS_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.XS})`,
+  S_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.S})`,
+  M_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.M})`
+  // L_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.L})`,
+  // XL_AND_DOWN: `@media screen and (max-width: ${BREAKPOINT.XL})`,
 
-//   XS_AND_UP: `@media screen and (min-width: ${BREAKPOINT.XS})`,
-//   S_AND_UP: `@media screen and (min-width: ${BREAKPOINT.S})`,
-//   M_AND_UP: `@media screen and (min-width: ${BREAKPOINT.M})`,
-//   L_AND_UP: `@media screen and (min-width: ${BREAKPOINT.L})`,
-//   XL_AND_UP: `@media screen and (min-width: ${BREAKPOINT.XL})`,
-// }
+  // XS_AND_UP: `@media screen and (min-width: ${BREAKPOINT.XS})`,
+  // S_AND_UP: `@media screen and (min-width: ${BREAKPOINT.S})`,
+  // M_AND_UP: `@media screen and (min-width: ${BREAKPOINT.M})`,
+  // L_AND_UP: `@media screen and (min-width: ${BREAKPOINT.L})`,
+  // XL_AND_UP: `@media screen and (min-width: ${BREAKPOINT.XL})`
+}
 
 // export const SPACER = {
 //   NONE: '0px',
@@ -78,3 +87,7 @@ export const COLOR = {
 // //   FADE_BLUE: `linear-gradient(180deg, ${Color.BLUE_DODGER} 0%, ${Color.BLUE_RIBBON} 100%)`,
 // //   FADE_PURPLE: `linear-gradient(180deg, ${Color.CORNFLOWER_MAUVE} 0%, ${Color.CORNFLOWER_MAUVE_LIGHT} 100%)`,
 // // };
+
+export const FONT = {
+  DEFAULT: "'Montserrat Alternates', sans-serif"
+}

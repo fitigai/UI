@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="430" width="429">
+  <defs>
+    <ellipse id="ellipse-1" opacity="1" rx="128" ry="128" cx="128" cy="212"/>
+    <mask id="mask-2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="429" height="430" fill="black"/>
+      <use xlink:href="#ellipse-1" fill="white"/>
+    </mask>
+    <ellipse id="ellipse-3" opacity="1" rx="128" ry="128" cx="301" cy="212"/>
+    <mask id="mask-4" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="429" height="430" fill="black"/>
+      <use xlink:href="#ellipse-3" fill="white"/>
+    </mask>
+    <ellipse id="ellipse-5" opacity="1" rx="128" ry="128" cx="210" cy="302"/>
+    <mask id="mask-6" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="429" height="430" fill="black"/>
+      <use xlink:href="#ellipse-5" fill="white"/>
+    </mask>
+    <ellipse id="ellipse-7" opacity="1" rx="128" ry="128" cx="210" cy="128"/>
+    <mask id="mask-8" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="429" height="430" fill="black"/>
+      <use xlink:href="#ellipse-7" fill="white"/>
+    </mask>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <use xlink:href="#ellipse-1" fill="rgb(200,200,200)" fill-opacity="0"/>
+      <use xlink:href="#ellipse-1" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="20" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-2)"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#ellipse-3" fill="rgb(200,200,200)" fill-opacity="0"/>
+      <use xlink:href="#ellipse-3" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="20" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-4)"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#ellipse-5" fill="rgb(200,200,200)" fill-opacity="0"/>
+      <use xlink:href="#ellipse-5" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="20" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-6)"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#ellipse-7" fill="rgb(200,200,200)" fill-opacity="0"/>
+      <use xlink:href="#ellipse-7" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="20" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-8)"/>
+    </g>
+  </g>
+</svg>

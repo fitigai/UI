@@ -1,13 +1,23 @@
-import CreateGlobalStyle from './style/GlobalStyle'
-import ThemeProvider from './style/ThemeProvider'
+import * as CST from './utils/constants'
+import CreateGlobalStyleEl from './style/GlobalStyle'
+import ThemeProviderEl from './style/ThemeProvider'
+import AvatarEl from './ui/avatar'
+import ButtonEl from './ui/button'
+import DropdownEl from './ui/dropdown'
+import HeadingEl from './ui/heading'
+import IconEl from './ui/icon'
+import InputEl from './ui/input'
+import LoaderEl from './ui/loader'
+import LogoEl from './ui/logo'
 
-import ButtonUI from './ui/button'
-import HeadingUI from './ui/heading'
-
-export const Button = ButtonUI
-export const Heading = HeadingUI
-
-export default {
-  CreateGlobalStyle,
-  ThemeProvider
-}
+export const CONSTANTS = CST
+export const ThemeProvider = ThemeProviderEl
+export const CreateGlobalStyle = CreateGlobalStyleEl
+export const Avatar = AvatarEl
+export const Button = ButtonEl
+export const Dropdown = DropdownEl
+export const Heading = HeadingEl
+export const Icon = IconEl
+export const Input = InputEl
+export const Loader = LoaderEl
+export const Logo = LogoEl
