@@ -1,12 +1,6 @@
-import React from 'react'
 import styled from 'styled-components'
 
-export const StyledIcon = styled(({ as: Tag, ...props }) => {
-  return <Tag {...props} />
-})`
-  border: 1px solid blue;
+export const StyledIcon = styled.div`
+  max-height: 16px;
+  max-width: 16px;
 `
-
-StyledIcon.defaultProps = {
-  as: 'i'
-}

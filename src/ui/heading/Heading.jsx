@@ -2,15 +2,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { StyledHeading } from './style'
+import { SIZES, SIZE } from '../../utils/constants'
 
-const Heading = ({ children }) => {
-  return <StyledHeading>{children}</StyledHeading>
+const Heading = ({ size, children }) => {
+  return <StyledHeading size={size}>{children}</StyledHeading>
 }
 
 Heading.propTypes = {
-  children: PropTypes.any
+  children: PropTypes.any.isRequired,
+  size: PropTypes.oneOf(SIZES)
 }
 
-Heading.defaultProps = {}
+Heading.defaultProps = {
+  size: SIZE.M
+}
 
 export default Heading

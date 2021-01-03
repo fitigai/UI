@@ -4,7 +4,17 @@ import Avatar from '.'
 
 export default {
   title: 'UI/Avatar',
-  component: Avatar
+  component: Avatar,
+  argTypes: {
+    name: {
+      control: 'text'
+    }
+  }
 }
 
-export const Default = () => <Avatar />
+const Story = ({ ...props }) => <Avatar {...props} />
+
+export const Default = Story.bind({})
+Default.args = {
+  name: 'John Doe'
+}

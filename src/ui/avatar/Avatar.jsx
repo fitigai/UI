@@ -1,14 +1,21 @@
+/**
+ * https://evergreen.segment.com/components/avatar
+ */
+
 import React from 'react'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
+import { Avatar as AvatarUI } from 'evergreen-ui'
 
-import { StyledAvatar } from './style'
+const Avatar = ({ ...props }) => <AvatarUI {...props} />
 
-const Avatar = () => {
-  return <StyledAvatar>avatar</StyledAvatar>
+Avatar.propTypes = {
+  name: PropTypes.string,
+  size: PropTypes.number,
+  src: PropTypes.string
 }
 
-Avatar.propTypes = {}
-
-Avatar.defaultProps = {}
+Avatar.defaultProps = {
+  size: 40
+}
 
 export default Avatar

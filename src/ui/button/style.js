@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { COLOR, FONT, BUTTON_TYPE } from '../../utils/constants'
+import { COLOR, FONT_FAMILY, BUTTON_TYPE, RADIUS } from '../../utils/constants'
 
 const getBackground = (type, isHover = false) => {
   let color
@@ -66,10 +66,10 @@ export const StyledButton = styled(({ as: Tag, type, ...props }) => (
   ${({ type }) => getBackground(type)}
   ${({ type }) => getColor(type)}
   ${({ type }) => getBorder(type)}
-  border-radius: 8px;
+  border-radius: ${RADIUS.DEFAULT};
   cursor: pointer;
   display: inline-block;
-  font-family: ${FONT.DEFAULT};
+  font-family: ${FONT_FAMILY.DEFAULT};
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
