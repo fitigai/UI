@@ -1,5 +1,3 @@
-import { Object } from 'es6-shim'
-
 export const BUTTON_TYPE = {
   MINIMAL: 'minimal',
   PLAIN: 'plain',
