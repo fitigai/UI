@@ -1,11 +1,13 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import { COLOR } from '../utils/constants'
+import { COLOR, FONT_FAMILY } from '../utils/constants'
 
 const defaultTheme = {
   colorBorder: COLOR.BORDER,
   colorText: COLOR.TEXT,
+
+  fontFamily: FONT_FAMILY.DEFAULT,
 
   fontSizeXS: '0.7rem',
   fontSizeS: '0.9rem',
@@ -15,6 +17,12 @@ const defaultTheme = {
   fontWeightBold: '700'
 }
 
-export default ({ children }) => (
-  <ThemeProvider theme={defaultTheme}>{children}</ThemeProvider>
+const themeProvider = ({ theme, children }) => (
+  <ThemeProvider theme={theme || defaultTheme}>{children}</ThemeProvider>
 )
+
+themeProvider.defaultProps = {
+  theme: null
+}
+
+export default themeProvider

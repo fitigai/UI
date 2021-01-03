@@ -7,14 +7,16 @@ export default createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: ${({ theme }) => theme.colorText};
   }
-
+  
   body,
   #root {
-    font-family: 'Roboto', sans-serif;
+    font-family: ${({ theme }) => theme.fontFamily};
+    font-size: ${({ theme }) => theme.colorText};
     font-size: 1rem;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
   }
 
   a {
